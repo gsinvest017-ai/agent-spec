@@ -146,6 +146,12 @@ Tags are used as directives to control agent behavior and interaction mode.
 - Avoid unnecessary framing or introductions
 - Provide brief confirmations after file operations
 
+### 6. **Code Quality**
+- Avoid over-design; keep solutions simple and pragmatic
+- Do not add nested try-except blocks or complex error handling for rare edge cases
+- Prioritize readable, maintainable code over defensive programming for unlikely scenarios
+- Add complexity only when justified by real requirements or demonstrated issues
+
 ---
 
 ## Common Interaction Patterns
